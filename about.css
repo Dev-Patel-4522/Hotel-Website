@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+}
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+#container{
+    background-image: url('../Img/pexels-quark-studio-2506988.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    border-bottom: 3px solid #f28482;
+
+}
+
+#logo{
+    width: 70px;
+    height:70px;
+    padding: 12px 0px 0px 50px;
+}
+.nav{
+    padding: 35px 0px 0px 50px;
+    font-size: 22px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.header1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bde0fe;
+    padding: 20px 70px 0px 0px ;
+    font-size: 17px;
+
+}
+.header{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fefae0;
+    padding: 20px 70px 0px 0px ;
+    font-size: 17px;
+}
+.header:hover{
+    color: #f28482;
+    transition: 0.5s;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #fefae0;
+    
+}
+
+/* ---------------div 1---------------- */
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.textarea {
+    font-family: poppins;
+    font-size: 16px;
+    padding: 50px 70px 30px 50px;
+    text-align: left;
+    width: 60%;
+}
+.picture img{
+    padding: 50px 70px 30px 50px;
+    height: 300px;
+    width: 500px;
+    border-radius: 70px;
+}
+
+.pics img{
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+/* ------------------Div 2------------------ */
+
+.pics{
+    position: relative;
+}
+.overtext h2{
+    position: absolute;
+    top: 100;
+    left: 40%;
+    right: 40%;
+    color: aliceblue;
+}
+
+.box img{
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+    padding-right: 10;
+    padding: 7;
+
+}
+.box{
+    top:30%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 174, 230, 0.7);
+}
+.box:nth-child(2){
+    top: 50%;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #778899;
+}
+.footercopy{
+    text-align: center;
+    font-size: 3.0vw;
+}
